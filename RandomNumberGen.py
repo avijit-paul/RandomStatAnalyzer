@@ -4,6 +4,7 @@ import statistics
 import pandas as pd
 
 
+
 # define function
 def generate_random_variables(num_of_variables, minimum_value, maximum_value, for_integer=False):
     random_variables = []
@@ -45,3 +46,4 @@ data_frame["RVs"] = random_numbers_float
 # write to Excel sheet
 excel_file_name = "Book1.xlsx"
 data_frame.to_excel(excel_file_name, index=False)
+
