@@ -16,7 +16,7 @@ t = np.linspace(0, 20, 100)  # from 0 to 20, with 100 points
 # Solve
 y = odeint(model, y0, t)
 
-# Plot results
+# Plot results 2D
 plt.plot(t, y)
 plt.xlabel('Time')
 plt.ylabel('y(t)')

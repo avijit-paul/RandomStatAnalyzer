@@ -1,4 +1,7 @@
 # define function
+import pandas as pd
+
+
 def calculate_stat(excel_file, sheet_number, column_name):
     df = pd.read_excel(excel_file, sheet_name=sheet_number)
 
@@ -13,7 +16,8 @@ def calculate_stat(excel_file, sheet_number, column_name):
 
     return average, standard_deviation, variance
 
-#enter data
+# enter data
+
 excel_file = "excel2.xlsx"
 sheet_number = "Sheet1"
 column_name = "RVs"
