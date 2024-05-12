@@ -18,7 +18,7 @@ def calculate_stat(excel_file, sheet_number, column_name):
 
 # enter data
 
-excel_file = "excel2.xlsx"
+excel_file = "excel_sheet.xlsx"
 sheet_number = "Sheet1"
 column_name = "RVs"
 
