@@ -2,6 +2,7 @@
 import pandas as pd
 
 
+# define function
 def calculate_stat(excel_file, sheet_number, column_name):
     df = pd.read_excel(excel_file, sheet_name=sheet_number)
 
